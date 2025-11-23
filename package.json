@@ -1,0 +1,17 @@
+{
+  "name": "bdi-emu",
+  "version": "1.0.0",
+  "description": "BDI Emulator",
+  "scripts": {
+    "bdi": "ts-node src/bdi.ts"
+  },
+  "author": "Bill Kuker",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^13.1.0",
+    "@types/node": "^22.15.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
